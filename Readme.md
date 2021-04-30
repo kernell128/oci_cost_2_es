@@ -2,7 +2,7 @@
 
 ![version][load_cost_es]
 
-This is an sample written in pyton to load OCI cost report into Elastic Search.
+This is an sample written in python to load OCI cost report into Elastic Search.
 Is required configure the permission to download cost report file chekc the procedure here: [OCI Documentation](https://docs.oracle.com/en-us/iaas/Content/Billing/Tasks/accessingusagereports.htm)
 This script will download the cost report file from your OCI tenancy and create the elasticsearch index and load all entries of the cost report file. Will perform this process and also will ignore files already processed. You can add this script in a josb schedule plataform of your choice like cron, at r any other project.
 
