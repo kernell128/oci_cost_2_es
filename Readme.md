@@ -8,7 +8,7 @@ This script will download the cost report file from your OCI tenancy and create 
 
 Script use an configuration file __cost_report_config.cnf__ that handle all required configuration that will be needed:
 
-## Configuration Section - Default or Global
+## `Configuration Section - Default or Global`
 Attribute | Description
 --------- | -----------
 es_server_addr | Elasticsearch server ip address
@@ -19,7 +19,7 @@ es_cost_report_doc_type | Type of document that will be created on Elasticsearch
 es_cost_report_index_replicas | Number of replicas of document on Elasticsearch deployment Default value 2. Only set to 1 in development environments.
 
 
-## Configuration Section - OCI cost report
+## `Configuration Section - OCI cost report`
 Attribute | Description
 --------- | -----------
 usage_report_namespace | Default value bling. **Do not change**
